@@ -2,8 +2,8 @@
 'use client'
 import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
-import { addSubdomain } from '@/features/subdomain/subdomainSlice'
-import { getAllSubdomains, getSubdomainData } from '@/lib/stateUtils'
+import { addSubdomain } from '../../lib/features/subdomain/subdomainSlice'
+import { getAllSubdomains, getSubdomainData } from '../../lib/stateUtils'
 
 export default function TestPage() {
   const dispatch = useDispatch()

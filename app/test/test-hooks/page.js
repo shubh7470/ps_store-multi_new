@@ -1,8 +1,8 @@
 // app/test-hooks/page.js
 'use client'
 import { useDispatch } from 'react-redux'
-import { addSubdomain } from '@/features/subdomain/subdomainSlice'
-import { useAllSubdomains, useSubdomain } from '@/features/subdomain/hooks'
+import { addSubdomain } from '../../../lib/features/subdomain/subdomainSlice'
+import { useAllSubdomains, useSubdomain } from '../../../lib/features/subdomain/hooks'
 
 export default function TestHooksPage() {
   const dispatch = useDispatch()

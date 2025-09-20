@@ -84,7 +84,7 @@ const ProductDescription = ({ product }) => {
           {/* Subdomain link */}
           {/* Made changes here */}
           <a
-            href={`http://${product.store.username}.localhost:3000`}
+            href={`http://${product.store.username}.${process.env.NEXT_PUBLIC_ROOT_DOMAIN}`}
             target="_blank" // optional: open in new tab
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-green-500"
@@ -98,3 +98,4 @@ const ProductDescription = ({ product }) => {
 };
 
 export default ProductDescription;
+

@@ -5,7 +5,7 @@ function extractSubdomain(request) {
   const host = request.headers.get('host') || ''
   const hostname = host.split(':')[0]
 
-  if (hostname.endsWith('.localhost')) {
+  if (hostname.endsWith(process.env.NEXT_PUBLIC_ROOT_DOMAIN ? process.env.NEXT_PUBLIC_ROOT_DOMAIN : ".localhost")) {
      return hostname.replace('.localhost', '') // happyshop.shop.localhost -> "happyshop"
   }
 
@@ -44,3 +44,4 @@ export async function middleware(request) {
 export const config = {
   matcher: ['/((?!api|_next|[\\w-]+\\.\\w+).*)'],
 }
+

@@ -1,9 +1,11 @@
 'use client'
 import { Search, ShoppingCart } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useSelector } from "react-redux";
+import Logo from "../assets/pentadStylelogo.png";
 
 const Navbar = () => {
 
@@ -18,15 +20,18 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="relative bg-white">
+        <nav className="relative bg-[#F9EDCF]">
             <div className="mx-6">
                 <div className="flex items-center justify-between max-w-7xl mx-auto py-4  transition-all">
 
                     <Link href="/" className="relative text-4xl font-semibold text-slate-700">
-                        <span className="text-green-600">go</span>cart<span className="text-green-600 text-5xl leading-0">.</span>
-                        <p className="absolute text-xs font-semibold -top-1 -right-8 px-3 p-0.5 rounded-full flex items-center gap-2 text-white bg-green-500">
-                            plus
-                        </p>
+                        <Image 
+                            src={Logo} 
+                            alt="Pentad Style Logo"
+                            width={120}
+                            height={40}
+                            className="object-contain"
+                        />
                     </Link>
 
                     {/* Desktop Menu */}

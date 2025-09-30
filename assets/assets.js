@@ -20,6 +20,59 @@ import { ClockFadingIcon, HeadsetIcon, SendIcon } from "lucide-react";
 import profile_pic1 from "./profile_pic1.jpg"
 import profile_pic2 from "./profile_pic2.jpg"
 import profile_pic3 from "./profile_pic3.jpg"
+import saree1 from "./saree1.webp"
+import saree2 from "./saree2.webp"
+import saree3 from "./saree3.webp"
+import saree4 from "./saree4.webp"
+import saree5 from "./saree5.jpg"
+import saree6 from "./saree6.jpg"
+import antara1 from "./antara1.webp"
+import antara2 from "./antara2.webp"
+import antara3 from "./antara3.webp"
+import antara4 from "./antara4.webp"
+import peelasaree1 from "./peelasaree1.webp"
+import peelasaree2 from "./peelasaree2.webp"
+import peelasaree3 from "./peelasaree3.webp"
+import peelasaree4 from "./peelasaree4.webp"
+import peelasaree5 from "./peelasaree5.webp"
+import peelasaree6 from "./peelasaree6.webp"
+import neela1 from "./neela1.webp"
+import neela2 from "./neela2.webp"
+import neela3 from "./neela3.webp"
+import neela4 from "./neela4.webp"
+import meher1 from "./meher1.webp"
+import meher2 from "./meher2.webp"
+import meher3 from "./meher3.webp"
+import meher4 from "./meher4.webp"
+import gagan1 from "./gagan1.webp"
+import gagan2 from "./gagan2.webp"
+import gagan3 from "./gagan3.webp"
+import gagan4 from "./gagan4.webp"
+import samundra from "./samundra.webp"
+import samundra2 from "./samundra2.webp"
+import samundra3 from "./samundra3.webp"
+import samundra4 from "./samundra4.webp"
+import koski from "./koski.webp"
+import koski2 from "./koski2.webp"
+import koski3 from "./koski3.webp"
+import koski4 from "./koski4.webp"
+import koski5 from "./koski5.jpg"
+import navyblue1 from "./navyblue1.webp"
+import navyblue2 from "./navyblue2.webp"
+import navyblue3 from "./navyblue3.webp"
+import navyblue4 from "./navyblue4.webp"
+import cream1 from "./cream1.webp"
+import cream2 from "./cream2.webp"
+import cream3 from "./cream3.webp"
+import cream4 from "./cream4.webp"
+import salwar1 from "./salwar1.webp"
+import salwar2 from "./salwar2.webp"
+import salwar3 from "./salwar3.webp"
+import salwar4 from "./salwar4.webp"
+import red1 from "./red1.webp"
+import red2 from "./red2.webp"
+import red3 from "./red3.webp"
+
 
 export const assets = {
     upload_area, hero_model_img,
@@ -68,7 +121,7 @@ export const productDummyData = [
         description: "Modern table lamp with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty. Enhance your audio experience with this earbuds. Indulge yourself in a world of pure sound with 50 hours of uninterrupted playtime. Equipped with the cutting-edge Zen Mode Tech ENC and BoomX Tech, prepare to be enthralled by a symphony of crystal-clear melodies.",
         mrp: 40,
         price: 29,
-        images: [product_img1, product_img2, product_img3, product_img4],
+        images: [saree1, saree2, saree3, saree4,saree5,saree6],
         category: "Decoration",
         storeId: "seller_1",
         inStock: true,
@@ -79,11 +132,11 @@ export const productDummyData = [
     },
     {
         id: "prod_2",
-        name: "Smart speaker gray",
+        name: "Antara Saree",
         description: "Smart speaker with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
         mrp: 50,
         price: 29,
-        images: [product_img2],
+        images: [antara1,antara2,antara3,antara4],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -98,7 +151,7 @@ export const productDummyData = [
         description: "Smart watch with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
         mrp: 60,
         price: 29,
-        images: [product_img3],
+        images: [peelasaree1,peelasaree2,peelasaree3,peelasaree4,peelasaree4,peelasaree5,peelasaree6],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -113,7 +166,7 @@ export const productDummyData = [
         description: "Wireless headphones with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
         mrp: 70,
         price: 29,
-        images: [product_img4],
+        images: [neela1,neela2,neela3,neela4],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -128,7 +181,7 @@ export const productDummyData = [
         description: "Smart watch with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
         mrp: 49,
         price: 29,
-        images: [product_img5],
+        images: [meher1,meher2,meher3,meher4],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -143,7 +196,7 @@ export const productDummyData = [
         description: "Security Camera with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
         mrp: 59,
         price: 29,
-        images: [product_img6],
+        images: [gagan1,gagan2,gagan3,gagan4],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -158,7 +211,7 @@ export const productDummyData = [
         description: "Smart Pen for iPad with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
         mrp: 89,
         price: 29,
-        images: [product_img7],
+        images: [samundra,samundra2,samundra3,samundra4],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -173,7 +226,7 @@ export const productDummyData = [
         description: "Home Theater with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
         mrp: 99,
         price: 29,
-        images: [product_img8],
+        images: [koski,koski2,koski3,koski4,koski5],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -188,7 +241,7 @@ export const productDummyData = [
         description: "Apple Wireless Earbuds with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
         mrp: 89,
         price: 29,
-        images: [product_img9],
+        images: [salwar1,salwar2,salwar3,salwar4],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -203,7 +256,7 @@ export const productDummyData = [
         description: "Apple Smart Watch with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
         mrp: 179,
         price: 29,
-        images: [product_img10],
+        images: [navyblue1,navyblue2,navyblue3,navyblue4],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -218,7 +271,7 @@ export const productDummyData = [
         description: "RGB Gaming Mouse with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
         mrp: 39,
         price: 29,
-        images: [product_img11],
+        images: [cream1,cream2,cream3,cream4],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
@@ -233,7 +286,7 @@ export const productDummyData = [
         description: "Smart Home Cleaner with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
         mrp: 199,
         price: 29,
-        images: [product_img12],
+        images: [red1,red2,red3],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,

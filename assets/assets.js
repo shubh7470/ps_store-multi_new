@@ -110,43 +110,30 @@ export const dummyRatingsData = [
 export const dummyStoreData = {
     id: "store_1",
     userId: "user_1",
-    name: "Happy Shop",
-    username: "happyshop", 
-    tagline: "Your happiness, our priority",
-    description: "At Happy Shop, we believe shopping should be simple, smart, and satisfying. Whether you're hunting for the latest fashion trends, top-notch electronics, home essentials, or unique lifestyle products — we've got it all under one digital roof.",
+    name: "Sample Handloom Store",
+    username: "samplestore", 
+    tagline: "Authentic handloom textiles",
+    description: "A sample store showcasing authentic handwoven textiles and traditional crafts. This is demo data for development purposes only.",
     
-    // Contact Information
-    email: "happyshop@example.com",
-    phone: "+0 1234567890",
-    whatsapp: "+0 1234567890",
-    website: "https://happyshop.com",
     
-    // Address Details
+    
+    // Address Details - Anonymized
     address: {
-        street: "3rd Floor, Happy Shop, New Building, 123 street",
-        area: "C Sector", 
-        city: "New York",
-        state: "NY",
-        country: "United States",
-        zipCode: "10001",
-        coordinates: {
-            lat: 40.7128,
-            lng: -74.0060
-        }
+        city: "Sample City",
+        state: "Sample State",
+        country: "India",
+        
     },
     
-    // Business Information
+    // Business Information - Registration details removed
     businessInfo: {
-        registrationNumber: "REG123456789",
-        taxId: "TAX987654321",
         establishedYear: 2020,
-        businessType: "Retail Store",
-        category: "Fashion & Electronics",
-        specialties: ["Fashion", "Electronics", "Home & Garden", "Sports"],
-        licenseNumber: "LIC456789123"
+        businessType: "Handloom Store",
+        category: "Textiles & Handloom",
+        specialties: ["Handloom Fabrics", "Traditional Textiles", "Artisan Crafts", "Sustainable Fashion"],
     },
     
-    // Store Stats & Performance
+    // Store Stats & Performance - Keep for demo
     stats: {
         totalProducts: 156,
         totalSales: 2847,
@@ -159,7 +146,7 @@ export const dummyStoreData = {
         joinedDate: "2020-09-15"
     },
     
-    // Business Hours
+    // Business Hours - Keep for demo
     businessHours: {
         monday: "9:00 AM - 9:00 PM",
         tuesday: "9:00 AM - 9:00 PM", 
@@ -170,80 +157,73 @@ export const dummyStoreData = {
         sunday: "10:00 AM - 8:00 PM"
     },
     
-    // Verification & Trust
+    // Verification & Trust - Keep for demo
     verification: {
         isVerified: true,
         isIdentityVerified: true,
         isBusinessVerified: true,
         isPhoneVerified: true,
         isEmailVerified: true,
-        verificationBadges: ["Top Seller", "Verified Business", "Fast Shipping"]
+        verificationBadges: ["Quality Assured", "Verified Store", "Fast Shipping"]
     },
     
-    // Social Media
-    socialMedia: {
-        facebook: "https://facebook.com/happyshop",
-        instagram: "https://instagram.com/happyshop", 
-        twitter: "https://twitter.com/happyshop",
-        youtube: "https://youtube.com/happyshop"
-    },
-    
-    // Policies
+   
+    // Policies - Keep for demo
     policies: {
         returnPolicy: "30-day hassle-free returns",
-        shippingPolicy: "Free shipping on orders above $50",
+        shippingPolicy: "Free shipping on orders above ₹500",
         refundPolicy: "Full refund within 7 days of return",
-        warrantyInfo: "1-year warranty on electronics",
+        warrantyInfo: "Quality guarantee on all products",
         exchangePolicy: "Easy exchange within 15 days"
     },
     
-    // Shipping Information
+    // Shipping Information - Keep for demo
     shipping: {
-        freeShippingThreshold: 50,
-        domesticShipping: "1-3 business days",
-        internationalShipping: "5-10 business days", 
-        shippingMethods: ["Standard", "Express", "Overnight"],
+        freeShippingThreshold: 500,
+        domesticShipping: "3-5 business days",
+        internationalShipping: "7-14 business days", 
+        shippingMethods: ["Standard", "Express", "Premium"],
         codAvailable: true,
         shippingZones: ["Nationwide", "International"]
     },
     
-    // Media
+    // Media - Anonymized
     media: {
-        logo: "happy_store_logo.jpg",
-        banner: "happy_store_banner.jpg",
+        logo: "sample_logo.jpg",
+        banner: "sample_banner.jpg",
         gallery: [
-            "store_image_1.jpg",
-            "store_image_2.jpg", 
-            "store_image_3.jpg",
-            "store_image_4.jpg"
+            "sample_image_1.jpg",
+            "sample_image_2.jpg", 
+            "sample_image_3.jpg",
+            "sample_image_4.jpg"
         ],
-        video: "https://youtube.com/embed/store-intro"
+        video: ""
     },
     
-    // Payment Methods
-    paymentMethods: ["Credit Card", "Debit Card", "PayPal", "Apple Pay", "Google Pay", "COD"],
+    // Payment Methods - Keep for demo
+    paymentMethods: ["Credit Card", "Debit Card", "UPI", "Net Banking", "Wallets", "COD"],
     
-    // Store Status
+    // Store Status - Keep for demo
     status: "approved",
     isActive: true,
     isPremium: true,
     isTopSeller: true,
     
-    // Timestamps
+    // Timestamps - Keep for demo
     createdAt: "2020-09-15T09:04:16.189Z",
     updatedAt: "2025-10-01T09:04:44.273Z",
     
-    // Owner Information
+    // Owner Information - Completely anonymized
     user: {
-        id: "user_31dOriXqC4TATvc0brIhlYbwwc5",
-        name: "Great Stack", 
-        email: "user.greatstack@gmail.com",
-        image: "gs_logo.jpg",
+        id: "",
+        name: "", 
+        email: "",
+        image: "",
         role: "Store Owner",
         joinedDate: "2020-09-15"
     },
     
-    // Additional Features
+    // Additional Features - Keep for demo
     features: {
         chatSupport: true,
         videoConsultation: true,

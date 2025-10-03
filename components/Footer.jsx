@@ -57,8 +57,8 @@ const Footer = () => {
     ]
 
     return (
-        <footer className="mx-6 bg-gradient-to-b from-[#FFF8E9] to-[#F9EDCF]">
-            <div className="max-w-7xl mx-auto">
+        <footer className="w-full bg-gradient-to-b from-[#FFF8E9] to-[#F9EDCF]">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row items-start justify-between gap-10 py-10 border-b border-[#a41212]/30 text-[#a41212]">
                     <div className="max-w-md">
                         <div className="flex-shrink-0 w-48">
